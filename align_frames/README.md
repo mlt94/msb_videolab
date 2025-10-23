@@ -25,11 +25,6 @@ A log file `align_fps_log.txt` will be created in the output directory, summariz
 ## R: align_fps.R
 This R script provides the same functionality as the Python version, aligning OpenFace CSV time series to a target FPS using rolling-mean smoothing and linear interpolation.
 
-### Required R packages
-```r
-install.packages(c("readxl", "data.table", "zoo", "optparse"))
-```
-
 ### Command-line arguments
 
 - `--in`: Input directory containing OpenFace CSV files.
