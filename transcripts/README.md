@@ -10,16 +10,15 @@ Before running any scripts, install the required Python packages using the provi
 
 ### Windows (PowerShell)
 ```powershell
-python -m venv msb_transcribe
-.\msb_transcribe\Scripts\Activate.ps1
-pip install -r sync_requirements.txt
+# Run the setup script to create the environment and install dependencies
+.\setup_environment.ps1
 ```
 
 ### macOS (bash/zsh)
 ```bash
-python3 -m venv msb_transcribe
-source msb_transcribe/bin/activate
-pip install -r sync_requirements.txt
+# Run the setup script to create the environment and install dependencies
+chmod +x setup_environment.sh
+./setup_environment.sh
 ```
 
 ## Usage
@@ -36,6 +35,6 @@ python transcribe.py --input /path/to/audio_or_video_file --output /path/to/outp
 
 ## Notes
 - Always run on a workstation with a GPU for fast and accurate transcription.
-- Make sure you have installed all dependencies from `sync_requirements.txt` before running the script.
+
 
 
