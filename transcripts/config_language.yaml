@@ -1,0 +1,12 @@
+device: "auto"  # Options: "auto", "cuda", "cpu"
+diary_model: "pyannote/speaker-diarization-3.1"
+hf_token: "your_huggingface_token_here"
+diarization_num_speakers: 2
+
+whisper_model_size: "small"  # Options: "tiny", "base", "small", "medium", "large" (depends on your compute availability, choose large for workstation else tiny)
+whisper_compute_type: "int8"  # Options: "int8", "float16", "float32" (depends on your compute availability, choose float16/32 for workstation else int8)
+
+audio_sample_rate: 16000
+audio_channels: 1
+
+both_speakers: True  # Set to true to transcribe both client and therapist
