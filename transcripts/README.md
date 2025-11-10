@@ -6,7 +6,7 @@ This folder contains scripts for generating transcripts from audio/video files u
 
 ## Setup
 The diarization pipeline requires hugging face token authentication. Make sure to create a profile on hugging face, and get a token. Input this token in the config file.
-Before running any scripts, install the required Python packages using the provided `sync_requirements.txt` file.
+Before running any scripts, install the required Python packages using the provided `sync_requirements.txt` file. Ensure python 3.11 is installed on your machine!
 
 ### Windows (PowerShell)
 ```powershell
